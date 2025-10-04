@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Asset Deal Closer — Home</title>
+  <!-- CSS -->
+  <link rel="stylesheet" href="../css/reset.css">
+  <link rel="stylesheet" href="../css/variables.css">
+  <link rel="stylesheet" href="../css/base.css">
+  <link rel="stylesheet" href="../css/utilities.css">
+  <link rel="stylesheet" href="../css/components.css">
+  <link rel="stylesheet" href="../css/sections.css">
+  <link rel="stylesheet" href="../css/responsive.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="navbar">
+    <div class="logo">
+      <img src="../img/logo.png" alt="ADC Logo" style="width:180px; height:auto;">
+      <!--span style="font-size:1.25rem;font-weight:600;color:var(--brand)">Asset Deal Closer</span--!>
+    </div>
+
+    <nav id="nav">
+      <a href="home.html" data-i18n="nav_home">หน้าแรก</a>
+      <a href="services.html" data-i18n="nav_services">บริการ</a>
+      <a href="about.html" data-i18n="nav_about">เกี่ยวกับเรา</a>
+      <a href="investment.html" data-i18n="nav_invest">ที่ปรึกษาการลงทุน</a>
+      <a href="contact.html" data-i18n="nav_contact">ติดต่อ</a>
+    </nav>
+
+    <div class="lang">
+	  <a href="#" class="lang-link" data-lang="th">TH</a> |
+	  <a href="#" class="lang-link" data-lang="en">EN</a> |
+	  <a href="#" class="lang-link" data-lang="zh">中文</a>
+	</div>
+
+  </header>
+
+  <!-- Hero -->
+  <section id="hero" class="hero">
+    <h1 data-i18n="hero_title">Closer to Your Best Deal</h1>
+    <p data-i18n="hero_sub" style="font-size:1.5rem; font-weight:700; color:var(--brand); margin-top:-1.0rem;">บริษัทนายหน้าอสังหาฯครบวงจร โปร่งใส มั่นใจ คุ้มค่า</p>  
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="services container">
+    <h2 data-i18n="services_h2">บริการของเรา</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="../img/services/service-buy.jpg" alt="Buy Property">
+        <h3 data-i18n="services_buy_h3">ซื้อ–ขาย อสังหาฯ</h3>
+        <p data-i18n="services_buy_p">บ้านเดี่ยว, คอนโด, ที่ดิน, อาคารพาณิชย์, คลังสินค้า</p>
+      </div>
+      <div class="card">
+        <img src="../img/services/service-rent.jpg" alt="Rent & Manage">
+        <h3 data-i18n="services_rent_h3">เช่าและบริหารจัดการ</h3>
+        <p data-i18n="services_rent_p">บริหารสัญญาเช่า, หาผู้เช่าคุณภาพ, บริการหลังการเช่า</p>
+      </div>
+      <div class="card">
+        <img src="../img/services/service-invest.jpg" alt="Investment Advisory">
+        <h3 data-i18n="services_invest_h3">ที่ปรึกษาการลงทุน</h3>
+        <p data-i18n="services_invest_p">วิเคราะห์ทำเล, ประเมินมูลค่า, วางแผนพัฒนาโครงการ</p>
+      </div>
+      <div class="card">
+        <img src="../img/services/service-foreign.jpg" alt="Foreign Investors">
+        <h3 data-i18n="services_foreign_h3">นักลงทุนต่างชาติ</h3>
+        <p data-i18n="services_foreign_p">ข้อมูลกฎหมายไทย, การจัดตั้งนิติบุคคล, การถือครองอสังหาฯ</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Investment Advisory -->
+  <section id="investment" class="investment container">
+    <h2 data-i18n="invest_h2">ที่ปรึกษาการลงทุน</h2>
+    <div class="grid">
+      <div>
+        <p data-i18n="invest_p">บริการที่ปรึกษาสำหรับนักลงทุนทั้งชาวไทยและต่างชาติ ครอบคลุมการวิเคราะห์ทำเล การประเมินมูลค่า และกลยุทธ์พัฒนาโครงการ</p>
+        <a href="contact.html" class="btn btn--primary" data-i18n="invest_btn">ปรึกษาผู้เชี่ยวชาญ</a>
+      </div>
+      <div>
+        <img src="../img/services/service-invest.jpg" alt="Investment Meeting">
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p data-i18n="footer_line1">© 2025 Asset Deal Closer (Thailand) Co., Ltd.</p>
+    <p data-i18n="footer_line2">Bangkok, Thailand | Tel: +66 89-444-1021 | Email: pls1.jiratth@gmail.com</p>
+  </footer>
+
+	<script src="../script/config.no-module.js" defer></script>
+	<script src="../script/util.no-module.js" defer></script>
+	<script src="../script/menu.no-module.js" defer></script>
+
+	<!-- i18n แยกตามหน้า -->
+	<script src="../script/i18n-core.no-module.js" defer></script>
+	<script src="../script/home_i18n.no-module.js" defer></script>
+
+	<script src="../script/form.no-module.js" defer></script>
+	<script src="../script/lazyload.no-module.js" defer></script>
+	<script src="../script/main.no-module.js" defer></script>
+
+</body>
+</html>

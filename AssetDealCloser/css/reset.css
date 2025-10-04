@@ -1,0 +1,14 @@
+/* reset.css — รีเซ็ตค่าเริ่มต้นให้อ่านง่ายและควบคุมได้ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}

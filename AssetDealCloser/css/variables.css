@@ -1,0 +1,29 @@
+/* variables.css — ตั้งค่าธีมหลัก */
+:root {
+  /* สีหลัก */
+  --brand: #1e3a8a;       /* น้ำเงินเข้ม */
+  --accent: #fbbf24;      /* ทอง */
+  --bg: #ffffff;          /* พื้นหลัง */
+  --ink: #0f172a;         /* ข้อความเข้ม */
+  --muted: #64748b;       /* ข้อความรอง */
+
+  /* ฟอนต์ */
+  --font-sans: 'Prompt', Arial, sans-serif;
+
+  /* ขนาดตัวอักษร */
+  --h1: 2.5rem;
+  --h2: 2rem;
+  --h3: 1.25rem;
+  --body: 1rem;
+
+  /* ระยะ */
+  --space-4: 1rem;
+  --space-8: 2rem;
+  --space-16: 4rem;
+
+  /* มุมโค้ง */
+  --radius: 12px;
+
+  /* เงา */
+  --shadow: 0 4px 10px rgba(0,0,0,0.08);
+}

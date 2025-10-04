@@ -1,0 +1,38 @@
+/* components.css — ปุ่ม, การ์ด, เมนู, ฟอร์ม */
+.btn {
+  padding: 12px 24px;
+  border-radius: var(--radius);
+  font-weight: 600;
+  cursor: pointer;
+  display: inline-block;
+}
+.btn--primary {
+  background: var(--brand);
+  color: #fff;
+}
+.btn--ghost {
+  border: 1px solid var(--brand);
+  color: var(--brand);
+  background: transparent;
+}
+.card {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: var(--radius);
+  padding: var(--space-4);
+  box-shadow: var(--shadow);
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--space-4);
+  border-bottom: 1px solid #e5e7eb;
+}
+.navbar a { margin-left: var(--space-4); font-weight: 500; }
+.footer {
+  background: var(--ink);
+  color: #fff;
+  padding: var(--space-8) var(--space-4);
+  text-align: center;
+}
